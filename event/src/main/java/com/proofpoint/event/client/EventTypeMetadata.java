@@ -413,20 +413,21 @@ final class EventTypeMetadata<T>
     @Override
     public boolean equals(Object o)
     {
-        if (this == o) {
-            return true;
-        }
-        if (o == null || getClass() != o.getClass()) {
-            return false;
-        }
+            throw new RuntimeException();
+//         if (this == o) {
+//             return true;
+//         }
+//         if (o == null || getClass() != o.getClass()) {
+//             return false;
+//         }
 
-        EventTypeMetadata<?> that = (EventTypeMetadata<?>) o;
+//         EventTypeMetadata<?> that = (EventTypeMetadata<?>) o;
 
-        if (eventClass != null ? !eventClass.equals(that.eventClass) : that.eventClass != null) {
-            return false;
-        }
+//         if (eventClass != null ? !eventClass.equals(that.eventClass) : that.eventClass != null) {
+//             return false;
+//         }
 
-        return true;
+//         return true;
     }
 
     @Override
