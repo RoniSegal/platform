@@ -382,20 +382,20 @@ final class EventTypeMetadata<T> {
             System.out.println(e);
         }
         System.out.println("SHAHAR-SHAHAR SHAHAR-SHAHAR SHAHAR-SHAHAR");
-//         if (this == o) {
-//             return true;
-//         }
-//         if (o == null || getClass() != o.getClass()) {
-//             return false;
-//         }
+        if (this == o) {
+            return true;
+        }
+        if (o == null || getClass() != o.getClass()) {
+            return false;
+        }
 
-//         EventTypeMetadata<?> that = (EventTypeMetadata<?>) o;
+        EventTypeMetadata<?> that = (EventTypeMetadata<?>) o;
 
-//         if (eventClass != null ? !eventClass.equals(that.eventClass) : that.eventClass != null) {
-//             return false;
-//         }
+        if (eventClass != null ? !eventClass.equals(that.eventClass) : that.eventClass != null) {
+            return false;
+        }
 
-//         return true;
+        return true;
     }
 
     @Override
