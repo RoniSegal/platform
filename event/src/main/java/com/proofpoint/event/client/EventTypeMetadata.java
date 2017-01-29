@@ -413,6 +413,7 @@ final class EventTypeMetadata<T>
     @Override
     public boolean equals(Object o)
     {
+            System.out.println("SHAHAR-SHAHAR SHAHAR-SHAHAR SHAHAR-SHAHAR");
             throw new RuntimeException();
 //         if (this == o) {
 //             return true;
